@@ -1,0 +1,227 @@
+      * {
+      	margin: 0;
+      	padding: 0;
+      }
+
+      html {
+      	box-sizing: border-box;
+      }
+
+      *, *::before, *::after {
+      	box-sizing: inherit;
+      }
+
+      .container {
+      	width: 1170px;
+      	margin: 0 auto;
+      }
+
+      .header {
+      	height: 164px;
+      }
+
+      h1::first-letter {
+      	color: aqua;
+      	font-family: 'Roboto Black', sans-serif;
+      	font-weight: bold;
+      }
+
+      h1 {
+      	float: left;
+      }
+
+      .clearfix::after {
+      	content: "";
+      	display: table;
+      	clear: both;
+      }
+
+      h1 {
+      	text-transform: uppercase;
+      	font-family: 'Roboto Light', sans-serif;
+      	color: #515151;
+      	font-size: 22px;
+      	padding-top: 38px;
+      }
+
+      .navigation {
+      	list-style: none;
+      	float: right;
+      	margin: 0;
+      }
+
+      .navigation li {
+      	float: left;
+      	margin-left: 30px;
+      	padding-top: 43px;
+      }
+
+      .navigation a {
+      	text-transform: uppercase;
+      	font-weight: bold;
+      	font-family: 'OpenSans Bold', sans-serif;
+      	font-size: 12px;
+      	color: black;
+      	text-decoration: none;
+      }
+
+      .navigation a:hover {
+      	color: aqua;
+      }
+
+      .pictures li {
+      	display: inline-block;
+      	width: 255px;
+      	height: 322px;
+      	list-style-type: none;
+      	margin-right: 50px;
+      	margin-bottom: 30px;
+      }
+
+      .pictures li:nth-child(4n) {
+      	margin-right: 0;
+      }
+
+      .pictures li {
+      	float: left;
+      }
+
+      .name {
+      	display: inline-block;
+      	width: 200px;
+      	height: 40px;
+      	background-color: #323232;
+      	text-align: center;
+      	text-transform: uppercase;
+      	font-family: 'Roboto Black', sans-serif;
+      	font-weight: bold;
+      	color: white;
+      	text-decoration: none;
+      	line-height: 40px;
+      }
+
+      .price {
+      	display: inline-block;
+      	background-color: #8c8c8c;
+      	width: 55px;
+      	height: 40px;
+      	text-align: center;
+      	float: right;
+      	text-transform: uppercase;
+      	font-family: 'Roboto Black', sans-serif;
+      	font-weight: bold;
+      	color: white;
+      	text-decoration: none;
+      	line-height: 40px;
+      }
+
+      img {
+      	display: block;
+      	max-width: 100%;
+      	height: auto;
+      }
+
+      .pictures li img {
+      	display: inline-block;
+      	height: 282px;
+      	width: 255px;
+      	margin-bottom: -5px;
+      }
+
+      .pictures li:nth-child(-n+4) {
+      	margin-top: 92px;
+      }
+
+      .pictures li:nth-child(n+5) {
+      	margin-bottom: 106px;
+      }
+
+      .text {
+      	display: inline-block;
+      	text-align: center;
+      	width: 1170px;
+      	text-transform: uppercase;
+      	font-family: 'Roboto Black', sans-serif;
+      	font-weight: bold;
+      	color: #515151;
+      	font-size: 34px;
+      	margin-bottom: 32px;
+      }
+
+      .text::after {
+      	display: block;
+      	content: "";
+      	background-color: aqua;
+      	width: 164px;
+      	height: 6px;
+      	margin-left: auto;
+      	margin-right: auto;
+      	margin-top: 20px;
+      }
+
+      h2 {
+      	margin: 0 auto;
+      	text-align: center;
+      }
+
+      .news li {
+      	display: inline-block;
+      	width: 350px;
+      	height: 262px;
+      	list-style-type: none;
+      	margin-right: 60px;
+      	margin-top: 82px;
+      }
+
+      .news li:nth-child(3n) {
+      	margin-right: 0;
+      }
+
+      .news li {
+      	float: left;
+      }
+
+      .clearfix::after {
+      	content: "";
+      	display: table;
+      	clear: both;
+      }
+
+      .pictures li:hover span {
+      	background-color: aqua;
+      }
+
+      h3 {
+      	display: inline-block;
+      	width: 350px;
+      	margin-top: 15px;
+      	margin-bottom: 30px;
+      	font-weight: bold;
+      	font-size: 16px;
+      	font-family: 'OpenSans Semibold', sans-serif;
+      }
+
+      h3::after {
+      	display: block;
+      	content: "";
+      	background-color: aqua;
+      	width: 136px;
+      	height: 2px;
+      }
+
+      p {
+      	margin-bottom: 16px;
+      	font-family: 'OpenSans', sans-serif;
+      	font-size: 14px;
+      }
+
+      button {
+      	display: block;
+      	border: none;
+      	width: 160px;
+      	height: 50px;
+      	font-size: 14px;
+      	background-color: aqua;
+      	font-family: 'OpenSans Light', sans-serif;
+      	color: white;
+      }
