@@ -16,10 +16,6 @@
       	margin: 0 auto;
       }
 
-      .header {
-      	height: 164px;
-      }
-
       h1::first-letter {
       	color: aqua;
       	font-family: 'Roboto Black', sans-serif;
@@ -38,10 +34,12 @@
 
       h1 {
       	text-transform: uppercase;
-      	font-family: 'Roboto Light', sans-serif;
+      	font-family: 'Roboto', sans-serif;
+      	font-weight: light;
       	color: #515151;
       	font-size: 22px;
       	padding-top: 38px;
+      	padding-bottom: 104px;
       }
 
       .navigation {
@@ -53,13 +51,14 @@
       .navigation li {
       	float: left;
       	margin-left: 30px;
-      	padding-top: 43px;
+				padding-top: 42px;
+				padding-bottom: 110px;
       }
 
       .navigation a {
       	text-transform: uppercase;
       	font-weight: bold;
-      	font-family: 'OpenSans Bold', sans-serif;
+      	font-family: 'Open Sans', sans-serif;
       	font-size: 12px;
       	color: black;
       	text-decoration: none;
@@ -93,8 +92,8 @@
       	background-color: #323232;
       	text-align: center;
       	text-transform: uppercase;
-      	font-family: 'Roboto Black', sans-serif;
-      	font-weight: bold;
+      	font-family: 'Roboto', sans-serif;
+      	font-weight: black;
       	color: white;
       	text-decoration: none;
       	line-height: 40px;
@@ -108,7 +107,8 @@
       	text-align: center;
       	float: right;
       	text-transform: uppercase;
-      	font-family: 'Roboto Black', sans-serif;
+      	font-family: 'Roboto', sans-serif;
+      	font-weight: black;
       	font-weight: bold;
       	color: white;
       	text-decoration: none;
@@ -124,8 +124,8 @@
       .pictures li img {
       	display: inline-block;
       	height: 282px;
-      	width: 255px;
-      	margin-bottom: -5px;
+				width: 255px;
+				margin-bottom: -4px;
       }
 
       .pictures li:nth-child(-n+4) {
@@ -198,7 +198,8 @@
       	margin-bottom: 30px;
       	font-weight: bold;
       	font-size: 16px;
-      	font-family: 'OpenSans Semibold', sans-serif;
+      	font-family: 'Open Sans', sans-serif;
+      	font-weight: semi-bol;
       }
 
       h3::after {
@@ -207,11 +208,12 @@
       	background-color: aqua;
       	width: 136px;
       	height: 2px;
+      	margin-top: 12px;
       }
 
       p {
       	margin-bottom: 16px;
-      	font-family: 'OpenSans', sans-serif;
+      	font-family: 'Open Sans', sans-serif;
       	font-size: 14px;
       }
 
@@ -222,6 +224,8 @@
       	height: 50px;
       	font-size: 14px;
       	background-color: aqua;
-      	font-family: 'OpenSans Light', sans-serif;
+      	font-family: 'Open Sans', sans-serif;
+      	font-weight: light;
       	color: white;
+      	margin-bottom: 15px;
       }
